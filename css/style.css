@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Raleway', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #555555;
+}
+
+
+nav li a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+nav li a.active {
+    font-weight: bold;
+}
+
+section#banner {
+    background-image: url(../img/jane.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 71vh;
+
+}
+
+section#conception, section#songs{
+    width: 900px;
+    margin: 0 auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+section#conception p {
+    text-align: justify;
+}
+
+section#songs img{
+    width: 100%;
+}
+
+section#songs li strong{
+    color:orange;
+}
+
+/* --- PAGINA CONTATO ---- */
+section#contatos, section#contato {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section#contato iframe{
+    width: 450px;
+    height: 450px;
+    margin-left: 3px;
+}
+
+.mapa{
+    width: 350px;
+    height: 350px;
+    padding-left: 30px;
+}
+
+form input[type='text']{
+    width: 100%;
+    height: 30px;
+}
+
+form textarea{
+    width: 100%;
+    resize: none;
+}
+
+form button{
+    background-color: orangered;
+    color: white;
+    border: 0;
+    width: 170px;
+    height: 30px;
+}
+
+.form-group {
+    margin:0 0 10px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+}
+
+main#about {
+    text-align: center;
+    
+}
+
+main#about cite{
+    font-weight: bold;
+}
+
+main#about img{
+    width: 350px;
+    padding-bottom: 30px;
+}
+
+main#music h2{
+    padding-left: 120px
+}
+
+main#music iframe{
+    padding-left: 120px;
+}
+
+main#music ul {
+    padding-left: 180px;
+}
+
+main#music p {
+    padding-left: 120px;
+}
+
+.corpo {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.duas-colunas>div {
+    width: 50%;
+    float: left;
+}
+
+
+footer{
+    background-color: #f2f2f2;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    
+}
