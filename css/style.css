@@ -66,7 +66,7 @@ section#conception p {
     text-align: justify;
 }
 
-section#songs img{
+.imgSongs{
     width: 100%;
 }
 
@@ -75,13 +75,13 @@ section#songs li strong{
 }
 
 /* --- PAGINA CONTATO ---- */
-section#contatos, section#contato {
+section#contact, section#contatos {
     width: 900px;
     margin: 0 auto;
     overflow: hidden;
 }
 
-section#contato iframe{
+section#contact iframe{
     width: 450px;
     height: 450px;
     margin-left: 3px;
@@ -92,6 +92,11 @@ section#contato iframe{
     height: 350px;
     padding-left: 30px;
 }
+
+.mapa iframe {
+    width: 100%;
+    height: 400px;
+  }
 
 form input[type='text']{
     width: 100%;
@@ -125,6 +130,12 @@ main#about {
     
 }
 
+main#music {
+    width: 900px;
+    max-width: 100%;
+
+}
+
 main#about cite{
     font-weight: bold;
 }
@@ -150,12 +161,6 @@ main#music p {
     padding-left: 120px;
 }
 
-.corpo {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .duas-colunas>div {
     width: 50%;
     float: left;
@@ -171,4 +176,56 @@ footer p{
     padding: 10px;
     margin: 0;
     
+}
+
+@media(max-width: 768px){
+    
+    section#banner {
+        background-image: url(../img/jane.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    .duas-colunas>div {
+        width: 100%;
+
+    }
+
+    .imgSongs{
+        width: 50%;
+    }
+    
+    section#conception, section#songs{
+        /* width: 768px;
+        margin: 0 auto; */
+        padding: 40px
+    }
+
+    main#music {
+        width: 900px;
+        max-width: 100%;
+        padding:0 40;        
+    }
+
+    /* main#music iframe{
+        width: 100%;
+    } */
+
+    main#music ul li {
+        font-size: 24px;
+    }
+
+    main#contact {
+        width: 100%;
+        padding: 0 40px;
+    }
+
 }
