@@ -116,9 +116,9 @@ main#about cite {
 /* music start */
 
 main#music {
-  width: 900px;
-  max-width: 100%;
-  margin: 30px auto;
+    width: 900px;
+    max-width: 100%;
+    margin: 190px auto;
 }
 
 /* music end */
@@ -128,7 +128,7 @@ main#music {
 main#contact {
   width: 900px;
   max-width: 100%;
-  margin: 30px auto;
+  margin: 190px auto;
 }
 
 /* home v2 */
